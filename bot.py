@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, User, ChatJoinRequest
 
 BOT_TOKEN = "6865893524:AAFqvn9xzdAatDYTbzl903uBt9U1bBibFlY",
-    API_ID = 24556417,
+    API_ID = "24556417",
     API_HASH ="24008c23b7506a0bd8821f19c19cd654"
 
 CHAT_ID=int(os.environ.get("CHAT_ID", "-1002127129005"))
